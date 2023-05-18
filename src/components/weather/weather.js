@@ -13,7 +13,7 @@ const Weather = (props) => {
 
   // console.log("moment_", sun);
 
-  const now = moment.unix(props.weather.dt);
+  const now = moment.unix(props.weather?.dt);
   const time = now.format("hh:mm:ss A");
   const date = now.format("YYYY-MM-DD");
   const sunRise = sun.format("hh:mm:ss A");
@@ -39,13 +39,13 @@ const Weather = (props) => {
             <img src={icon1} alt="" />
           </Container>
           <Container>
-            {props.weather.main && (
+            {props.weather?.main && (
               <h4 className="temph4">{props.weather.main.temp}° C</h4>
             )}
           </Container>
 
           <Container>
-            {props.weather.weather && (
+            {props.weather?.weather && (
               <h4 className="temph5">
                 {props?.weather?.weather[0]?.description}
               </h4>
@@ -58,11 +58,11 @@ const Weather = (props) => {
         <Card className="weatherCard flex spacea">
           <Container className="secondCardFlex spacea">
             <div className="flexc">
-              {props.weather.main && <h2> {props.weather.main.temp}° C</h2>}
+              {props.weather?.main && <h2> {props.weather.main.temp}° C</h2>}
               <h4>Temp</h4>
             </div>
             <div className="flexc">
-              {props.weather.main && (
+              {props.weather?.main && (
                 <h2>{props.weather.main.feels_like}° C</h2>
               )}
               <h4>Feels like</h4>
@@ -70,11 +70,11 @@ const Weather = (props) => {
           </Container>
           <Container className="secondCardFlex spacea">
             <div className="flexc">
-              {props.search && <h2>{props.search.value.lat.toFixed(4)}</h2>}
+              {props.search && <h2>{props.search?.value?.lat.toFixed(4)}</h2>}
               <h4>Lat</h4>
             </div>
             <div className="flexc">
-              {props.search && <h2>{props.search.value.long.toFixed(4)}</h2>}
+              {props.search && <h2>{props.search?.value?.long.toFixed(4)}</h2>}
               <h4>Long</h4>
             </div>
           </Container>
