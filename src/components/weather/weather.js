@@ -68,7 +68,7 @@ const Weather = (props) => {
               <h4>Feels like</h4>
             </div>
           </Container>
-          <Container className="secondCardFlex spacea">
+          {/* <Container className="secondCardFlex spacea">
             <div className="flexc">
               {props.search && <h2>{props.search?.value?.lat.toFixed(4)}</h2>}
               <h4>Lat</h4>
@@ -77,7 +77,7 @@ const Weather = (props) => {
               {props.search && <h2>{props.search?.value?.long.toFixed(4)}</h2>}
               <h4>Long</h4>
             </div>
-          </Container>
+          </Container> */}
           <Container className="secondCardFlex spacea">
             <div className="flexc">
               <h2>{time}</h2>

@@ -3,11 +3,10 @@ import "./forecast.scss";
 import moment from "moment";
 
 const forecastDetail = ({ dailyweather }) => {
-  console.log("dailyweather__", dailyweather);
 
-  const myDailyWeather = dailyweather?.list?.splice(0, 7);
+  const myDailyWeather = dailyweather?.list?.splice(0, 10);
 
-  console.log("myDailyWeather__", myDailyWeather);
+//   console.log("myDailyWeather__", myDailyWeather);
 
   return (
     <div className="forecast flex">
