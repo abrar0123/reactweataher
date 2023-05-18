@@ -1,0 +1,34 @@
+.search {
+  padding: 0px 20px;
+  /*   
+  background: url(../../assets/images/sky.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh; */
+}
+.search .search-paginate {
+  /* margin-top: 40px; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  color: black;
+  font-weight: 500;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+.spaceb {
+  justify-content: space-between;
+}
+
+/* .imgContainer {
+  width: 100%;
+  height: 100vh;
+}
+.imgContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+} */
