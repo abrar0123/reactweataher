@@ -1,6 +1,21 @@
+.mainforecast{
+  padding: 20px 0;
+
+  h3{
+    color: rgb(13, 28, 238);
+    font-size: 25px;
+    font-weight: bold;
+  text-transform: uppercase;
+  display: inline;
+  padding-bottom: 2px;
+  border-bottom: 3px solid rgb(13, 28, 238)
+  }
+
+}
+
 .forecast{
-    padding: 20px;
-    justify-content: space-between;
+    // justify-content: space-between;
+    margin-top: 50px;
     gap:10px;
 
 }

@@ -23,15 +23,15 @@ const Weather = (props) => {
   const empty = "Location";
   return (
     <>
-    {/*  */}
-      {/* <Card className="weatherdate">
+      {/*  */}
+      <Card className="weatherdate">
         <div>
           <h3 className="dataeh3">
-            {props.search ? props.search.label : empty}
+            {props.weather ? props.weather.name : empty}
           </h3>
         </div>
         <div>{props.weather && <h3 className="dayeh3">{day}</h3>}</div>
-      </Card> */}
+      </Card>
 
       <Container className="mainFlex flex ">
         <Card className="tempCard flexc spaceb">
