@@ -6,7 +6,6 @@ import { APIkey, weatherEndPoints } from "./components/search/api";
 import Forecast from "./components/forecast/forecast";
 
 function App() {
-  
   const token = "token786";
   const token2 = "tokn2786";
 

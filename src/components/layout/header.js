@@ -22,6 +22,7 @@ const Header = (props) => {
         <h3 style={{ textTransform: "uppercase" }}>Weather App</h3>
         {/* <h3 style={{ textTransform: "capitalize" }}> Gujrat TimeZone</h3> */}
         <Search
+          // style={{ fontSize: "20px" }}
           onChangeSearch={props.onChangeSearch}
           weatherhandler={props.weatherhandler}
           forecastApiData={props.forecastApiData}
