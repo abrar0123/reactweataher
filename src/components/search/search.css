@@ -1,5 +1,8 @@
+html {
+  font-size: 62.5%;
+}
 .search {
-  padding: 0px 20px;
+  padding: 0px 2rem;
   /*   
   background: url(../../assets/images/sky.jpg) no-repeat;
   background-size: cover;
@@ -7,10 +10,11 @@
   height: 100vh; */
 }
 .search .search-paginate {
-  /* margin-top: 40px; */
+  font-size: 1.8rem;
   margin-left: auto;
+
   margin-right: auto;
-  width: 400px;
+  width: 40rem;
   color: black;
   font-weight: 500;
 }
